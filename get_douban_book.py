@@ -25,7 +25,7 @@ if __name__ == '__main__':
     # 设置用户名
     bro.find_element_by_id('username').send_keys("15770793039")
     # 设置密码
-    bro.find_element_by_id('password').send_keys("zhb150706032")
+    bro.find_element_by_id('password').send_keys("123456789")
     # 点击登录
     bro.find_element_by_link_text("登录豆瓣").click()
     # 停留两秒
